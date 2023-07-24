@@ -25,7 +25,7 @@ public class Order {
    @OneToMany @JsonIgnore
    private List<OrderDetail> orderDetails;
 
-   private Date CreatedDate;
+   private Date createdDate;
 
    @Enumerated(value = EnumType.ORDINAL)
    private OrderStatus orderStatus;
